@@ -42,3 +42,10 @@ $array = [
 ];
 //print_r(implode(',', $array));
 
+//printf('%.3f', 3.1212);
+
+$company = [
+    'Apple', 'Microsoft', 'WeDevs', 'Adobe'
+];
+
+vprintf('%s %s %s %s', $company);
