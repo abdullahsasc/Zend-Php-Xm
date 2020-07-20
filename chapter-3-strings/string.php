@@ -48,4 +48,13 @@ $company = [
     'Apple', 'Microsoft', 'WeDevs', 'Adobe'
 ];
 
-vprintf('%s %s %s %s', $company);
+//vprintf('%s %s %s %s', $company);
+
+/**
+ * Regular Expression
+ */
+$url = "https://translate.google.com/#view=home&op=translate&sl=en&tl=bn&text=Noman";
+$pettarn = '#(.*?)://(.*?)/(.*)#';
+
+preg_match($pettarn, $url, $mach);
+var_dump($mach);
